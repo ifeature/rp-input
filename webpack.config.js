@@ -21,7 +21,6 @@ module.exports = {
         extensions: ['.js', '.jsx']
     },
     module: {
-        noParse: /lodash/,
         rules: [
             {
                 test: /\.jsx?$/,

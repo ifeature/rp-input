@@ -1,3 +1,8 @@
+## 0.1.3 (February 19, 2017)
+
+* Lodash import fix
+
+
 ## 0.1.2 (February 19, 2017)
 
 * Sourcemaps added
