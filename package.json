@@ -1,0 +1,41 @@
+{
+  "name": "rp-input",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.jsx",
+    "lint:fix": "eslint src/**/*.jsx --fix",
+    "build": "webpack",
+    "build:example": "webpack ./webpack.config.example.js"
+  },
+  "keywords": [],
+  "author": "Artem Nakhodkin <ifeature@yandex.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-react": "^6.23.0",
+    "babel-runtime": "^6.23.0",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "jest-cli": "^18.1.0",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.8.1",
+    "webpack": "^2.2.1"
+  }
+}

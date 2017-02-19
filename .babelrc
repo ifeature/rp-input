@@ -1,0 +1,21 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "browsers": [
+                        "last 2 versions",
+                        "safari >= 7"
+                    ]
+                },
+                "useBuiltIns": true
+            }
+        ],
+        "react"
+    ],
+    "plugins": [
+        "transform-runtime",
+        "babel-plugin-transform-class-properties"
+    ]
+}
