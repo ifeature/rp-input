@@ -13,6 +13,10 @@
   "keywords": [],
   "author": "Artem Nakhodkin <ifeature@yandex.ru>",
   "license": "ISC",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ifeature/rp-input.git"
+  },
   "dependencies": {
     "lodash": "^4.17.4",
     "react": "^15.4.2"
