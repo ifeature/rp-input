@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src/**/*.jsx",
     "lint:fix": "eslint src/**/*.jsx --fix",
-    "build": "webpack",
+    "build": "webpack -p",
+    "build:dev": "webpack",
     "build:example": "webpack ./webpack.config.example.js"
   },
   "keywords": [],
@@ -40,6 +41,7 @@
     "react-redux": "^5.0.2",
     "redux": "^3.6.0",
     "redux-logger": "^2.8.1",
+    "uglifyjs-webpack-plugin": "^0.2.0",
     "webpack": "^2.2.1"
   }
 }
